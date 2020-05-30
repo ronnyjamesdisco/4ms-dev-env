@@ -25,6 +25,8 @@ if [ -d "$SWN_DIR" ]; then
 	echo "SWN directory exists, not cloning"
 else
 	echo "Cloning SWN..."
-	git clone https://github.com/4ms/SWN.git $SWN_DIR
+	git clone https://github.com/ronnyjamesdisco/SWNRON $SWN_DIR
 fi
+
+
 
